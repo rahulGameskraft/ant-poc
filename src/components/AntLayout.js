@@ -21,13 +21,13 @@ const AntLayout = (props) => {
     }
     return (
         <>
-            <div>
+            <div style={{overflow:"hidden", width:'100%'}}>
                 <TopNav current={current} setCurrent={setCurrent}/>
             </div>
             <div style={{display:"flex"}}>
                 <SideBar />
 
-                <div style={{ width:"100%", overflowX:'overlay', minWidth:1390, height:'90vh', backgroundColor:"rgb(242, 245, 249)"}}>
+                <div style={{ width:"100%", overflowX:'scroll !important', minWidth:1270, height:'90vh', backgroundColor:"rgb(242, 245, 249)"}}>
                     {componentMapping[current]}
                 </div>
             </div>

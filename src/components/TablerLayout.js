@@ -57,7 +57,7 @@ const TablerLayout = (props) => {
     };
 
     return (
-        <div style={{backgroundColor:"rgb(242,245,249)", height:'90vh', marginLeft:140, paddingRight:140}}>
+        <div style={{backgroundColor:"rgb(242,245,249)", height:'90vh', overflowY:"scroll",marginLeft:120, paddingRight:120}}>
 
             <Row style={{marginTop:90,}}>
                 <Col style={{width:'23.5%'}}><ProgressCard /></Col>

@@ -6,7 +6,7 @@ import { Card } from "antd";
 const AntRoot = () => {
 
     return (
-        <div style={{backgroundColor:"rgb(242,245,249)",overflow:"hidden"}}>
+        <div style={{backgroundColor:"rgb(242,245,249)",overflowX:"hidden", height:'90vh',overflowY:'scroll'}}>
             <div style={{marginTop:90, marginBottom:90,marginLeft:"6vw",marginRight:"6vw", overflowX:'auto'}}>
                 
                 <Card title={'Bounce Rate'} >
