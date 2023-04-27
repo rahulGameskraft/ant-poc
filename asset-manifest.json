@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ant-poc/static/css/main.bd1c4564.css",
-    "main.js": "/ant-poc/static/js/main.8169d753.js",
+    "main.js": "/ant-poc/static/js/main.eb7eb574.js",
     "static/js/787.9d8d0641.chunk.js": "/ant-poc/static/js/787.9d8d0641.chunk.js",
     "index.html": "/ant-poc/index.html",
     "main.bd1c4564.css.map": "/ant-poc/static/css/main.bd1c4564.css.map",
-    "main.8169d753.js.map": "/ant-poc/static/js/main.8169d753.js.map",
+    "main.eb7eb574.js.map": "/ant-poc/static/js/main.eb7eb574.js.map",
     "787.9d8d0641.chunk.js.map": "/ant-poc/static/js/787.9d8d0641.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bd1c4564.css",
-    "static/js/main.8169d753.js"
+    "static/js/main.eb7eb574.js"
   ]
 }
