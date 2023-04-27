@@ -24,7 +24,7 @@ const TaskList = (props) => {
         </Row>,
         <Row justify={'space-between'} style={{width:'100%'}}>
             <Col span={1}><Checkbox /></Col>
-            <Col span={9}><span>Identify the implementation team.</span></Col>
+            <Col span={9}><span>Identify the team</span></Col>
             <Col span={7} style={{color:'rgb(92, 107, 119)'}}><CalendarOutlined /> 24/04/23</Col>
             <Col span={7}>Priority : P0</Col>
         </Row>,
