@@ -32,6 +32,14 @@ const TopNav = (props)=>{
                 {
                     label : 'Modal',
                     key: 'modal'
+                },
+                {
+                    label : 'Check Box',
+                    key: 'checkbox' 
+                },
+                {
+                    label:'Form Modal',
+                    key:'formModal'
                 }
             ],
         },
@@ -70,7 +78,7 @@ const TopNav = (props)=>{
                                 </Col>
                                 <Col style={{paddingLeft:10, paddingRight:10}}>
                                     <Row>Rahul Srivastava</Row>
-                                    <Row style={{color:'#5c6b77'}}>Rummy Time</Row> 
+                                    <Row style={{color:'#5c6b77'}}>Organization</Row> 
                                 </Col>
                             </Row>
                         </Col>

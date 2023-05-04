@@ -9,6 +9,10 @@ import AntRoot from "./common/AntRoot";
 import { useState } from "react";
 import TablerLayout from "./TablerLayout";
 import AntModal from "./Modals";
+import AntCheckbox from "./common/Checkbox";
+import { TimePicker } from "antd";
+import AntDateTimePicker from "./common/TimePicker";
+import FormModal from "./common/FormModal";
 
 const AntLayout = (props) => {
 
@@ -17,7 +21,9 @@ const AntLayout = (props) => {
         'antd': <TablerLayout />,
         'tables':<AntRoot />,
         'data_grid':<DataGrid />,
-        'modal':<AntModal />
+        'modal':<AntModal />,
+        'checkbox':<AntCheckbox />,
+        'formModal' : <FormModal />
     }
     return (
         <>
@@ -27,7 +33,7 @@ const AntLayout = (props) => {
             <div style={{display:"flex"}}>
                 <SideBar />
 
-                <div style={{ width:"100%", overflowX:'scroll !important', minWidth:1270, height:'90vh', backgroundColor:"rgb(242, 245, 249)"}}>
+                <div style={{ width:"100%", overflowX:'auto',overflowY:'hidden', minWidth:1270, height:'90vh', backgroundColor:"rgb(242, 245, 249)"}}>
                     {componentMapping[current]}
                 </div>
             </div>
