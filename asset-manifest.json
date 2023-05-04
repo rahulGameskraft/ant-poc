@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ant-poc/static/css/main.bd1c4564.css",
-    "main.js": "/ant-poc/static/js/main.93ce6dad.js",
+    "main.css": "/ant-poc/static/css/main.0f8ab073.css",
+    "main.js": "/ant-poc/static/js/main.0f7c324c.js",
     "static/js/787.9d8d0641.chunk.js": "/ant-poc/static/js/787.9d8d0641.chunk.js",
     "index.html": "/ant-poc/index.html",
-    "main.bd1c4564.css.map": "/ant-poc/static/css/main.bd1c4564.css.map",
-    "main.93ce6dad.js.map": "/ant-poc/static/js/main.93ce6dad.js.map",
+    "main.0f8ab073.css.map": "/ant-poc/static/css/main.0f8ab073.css.map",
+    "main.0f7c324c.js.map": "/ant-poc/static/js/main.0f7c324c.js.map",
     "787.9d8d0641.chunk.js.map": "/ant-poc/static/js/787.9d8d0641.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd1c4564.css",
-    "static/js/main.93ce6dad.js"
+    "static/css/main.0f8ab073.css",
+    "static/js/main.0f7c324c.js"
   ]
 }
